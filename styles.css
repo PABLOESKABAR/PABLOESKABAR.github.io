@@ -1,9 +1,11 @@
 body {
 background-color: black;
 margin: 0px;
+margin-left: auto;
+margin-right: auto;
 padding: 0px;
 font-family: 'Montserrat', sans-serif;
-
+width: 1440px;
 
 }
 
