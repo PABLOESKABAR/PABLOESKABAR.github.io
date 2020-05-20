@@ -16,7 +16,7 @@ font-family: 'Montserrat', sans-serif;
 	position: relative;
 	height: 704px;
 	max-width: 1440px;
-	background-image: url(img/image_2.png);
+	background-image: url(img/image_2.jpg);
 	border: solid 1px;
 
 }
@@ -37,12 +37,13 @@ font-family: 'Montserrat', sans-serif;
 	
 	margin-top: 327px;
 }
-.slogan h2 {
+.slogan p:first-child {
 	margin: 0px;
 	font-size: 60px;
+	font-weight: bold;
 }
 
-.slogan h3 {
+.slogan p:last-child {
 	font-size: 17px;
 	font-weight: 300;
 }
@@ -68,33 +69,31 @@ font-family: 'Montserrat', sans-serif;
 	font-family: 'Montserrat', sans-serif;
 }
 
-.btn {
-	
-	
+.btn_content {
 	display: block;
+	max-width: 264px;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 30px;
-	max-width: 264px;
-	height: 64px;
-	background-color: rgba(42, 108, 238, 1);
-	text-align: center;
-	border-radius: 100px;
-	font-weight: 700;
-}
-.btn_content {
-	padding-top: 10px;
-	display: block;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	
 	vertical-align: middle;
-	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
 	color: white;
+	text-decoration: none;
+	line-height: 30px;
+	
+	background-color: rgba(42, 108, 238, 1);
+	border-radius: 100px;
 }
+
 .info__menu {
 	background-color: black;
 	min-height: 210px;
 	margin-left: 0px;
 	margin-right: 0px;
-
 }
 
 .info__menu__item {
