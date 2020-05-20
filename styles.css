@@ -144,5 +144,10 @@ font-family: 'Montserrat', sans-serif;
 	margin-top: 64px; 
 	margin-bottom: 64px;
 }
+.text_content h3 {
+	font-size: 34px;
+	margin-top: 64px; 
+	margin-bottom: 64px;
+}
 
 
