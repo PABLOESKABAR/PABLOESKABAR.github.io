@@ -163,10 +163,11 @@ font-family: 'Montserrat', sans-serif;
 .text_about{
 	max-width: 524px;
 	margin: 0px 71px 38px 137px;
+	box-sizing: border-box;
 }
 
 .img_about {
-	
+	box-sizing: border-box;
 	max-width: 525px;
 	max-height: 295px;
 	margin-top: 153px;
@@ -183,29 +184,32 @@ font-family: 'Montserrat', sans-serif;
 .content2 {
 	display: flex;
 	flex-direction: row;
+	flex-wrap:wrap;
 	min-height: 295px;
 	color: snow;
 }
 
 .single_fly {
 	background-image: url(img/image_3.jpg); 
+	background-repeat: no-repeat;
 	width: 50%;
 }
 .group_fly {
 	background-color: rgba(42, 108, 238, 1);
 	width: 50%;
+	min-width: 400px;
 }
-.single_fly_text p:first-child {
+.text_flues p:first-child {
 	font-size: 25px;
+	margin-bottom: 20px;
 }
-.single_fly_text p:last-child {
+.text_flues p:last-child {
 	font-size: 12px;
 }
-.group_fly_text p:first-child {
-	font-size: 25px;
-}
-.group_fly_text p:last-child {
-	font-size: 12px;
+.single_fly_text {
+	margin-top: 118px;
+	margin-left: 134px;
+	
 }
 
 
