@@ -1,11 +1,12 @@
 $(document).ready(function(){
 	$('.slider').slick({
+		lazyLoad: 'ondemand',
 		arrows:true,
 		dots:true,
 		slidesToShow:1,
-		autoplay:true,
-		speed:3000,
-		autoplaySpeed:1800,
+		autoplay:false,
+		speed:1000,
+		autoplaySpeed:100,
 		responsive:[
 			{
 				breakpoint: 768,
