@@ -282,6 +282,7 @@ font-family: 'Montserrat', sans-serif;
 
 .slider .slick-dots{
 	display: flex;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 }
@@ -313,6 +314,11 @@ font-family: 'Montserrat', sans-serif;
 }
 .slider__item.slick-center{
 	
+}
+
+.slider .slick-initialized .slick-slider .slick-dotted {
+	display: flex;
+	flex-direction: row;
 }
 
 
